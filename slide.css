@@ -1,0 +1,30 @@
+/* Configuração geral do slider */
+section.slider {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    flex: 0 0 100%; /* Cada slide ocupa 100% da largura */
+    text-align: center;
+    position: relative;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.slide p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+}
