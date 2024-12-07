@@ -1,3 +1,8 @@
+body {
+    background-color:#06090f;
+
+}
+
 /* Configuração geral do slider */
 section.slider {
     margin: 0 auto;
@@ -27,4 +32,41 @@ section.slider {
     margin: 10px 0;
     font-size: 1rem;
     color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 10;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
